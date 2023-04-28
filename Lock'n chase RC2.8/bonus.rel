@@ -1,0 +1,25 @@
+XL
+H 7 areas 2 global symbols
+M bonus
+O -mz80
+S .__.ABS. Def0000
+A _CODE size 41 flags 0 addr 0
+S _sfx_bonus Def0000
+A _DATA size 0 flags 0 addr 0
+A _OVERLAY size 0 flags 0 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _CABS size 0 flags 0 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 52 8E 07 52 90 54 9F 56 86 08 56 90 58 9F
+R 00 00 00 00
+T 0E 00 5A 8E 07 5A 90 5C 9F 5E 81 07 5E 90 60 9F
+R 00 00 00 00
+T 1C 00 62 8A 06 62 90 64 9F 66 81 07 66 90 68 9F
+R 00 00 00 00
+T 2A 00 6A 8A 06 6A 90 6C 9F 6E 8F 05 6E 90 70 9F
+R 00 00 00 00
+T 38 00 72 84 05 72 90 74 9F 75 00
+R 00 00 00 00

@@ -1,0 +1,26 @@
+-mjx
+-i main.ihx
+-b _CODE = 0x8048
+-b _DATA = 0x7000
+-k C:\sdcc\bin\..\lib\z80
+-l ../cvlib.lib
+-l ../getput.lib
+-l z80
+main.rel
+../crtcv.rel
+bios0.rel
+bios1.rel
+bonus.rel
+gameOver.rel
+ingame.rel
+level1.rel
+level2.rel
+level3.rel
+loose_life.rel
+musique.rel
+nextlevel.rel
+piece.rel
+porte.rel
+Title.rel
+
+-e

@@ -1,0 +1,295 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods + Flat24  (Zilog Z80 / Hitachi HD64180), page 1.
+
+Symbol Table
+
+    .__.ABS.                                                    =  0000 G
+    _BIOS0COLORS                                                   **** GX
+    _BIOS0NAMERLE                                                  **** GX
+    _BIOS0PATTERNRLE                                               **** GX
+    _BIOS1COLORRLE                                                 **** GX
+    _BIOS1NAMERLE                                                  **** GX
+    _BIOS1PATTERNRLE                                               **** GX
+  0 _BONUS                                                         001E R
+    _COLORRLE                                                      **** GX
+    _COLORRLE_LEVEL2                                               **** GX
+    _COLORRLE_LEVEL3                                               **** GX
+    _GHOSTGAMEZONE                                                 **** GX
+    _GHOSTGAMEZONE_LEVEL2                                          **** GX
+    _GHOSTGAMEZONE_LEVEL3                                          **** GX
+  1 _G_ATATTick                                                    013E GR
+  1 _G_ATATTickShoot                                               0140 GR
+  1 _G_KILLTick                                                    0142 GR
+  1 _G_LastTick                                                    013A GR
+  1 _G_TickCount                                                   0138 GR
+  1 _G_count                                                       013C GR
+    _NAMERLE                                                       **** GX
+    _NAMERLE_INTRO                                                 **** GX
+    _NAMERLE_LEVEL2                                                **** GX
+    _NAMERLE_LEVEL3                                                **** GX
+    _PATTERNRLE                                                    **** GX
+    _PATTERNRLE_LEVEL2                                             **** GX
+    _PATTERNRLE_LEVEL3                                             **** GX
+    _SPATTERNRLE                                                   **** GX
+    _TITLECOLORRLE                                                 **** GX
+    _TITLENAMERLE                                                  **** GX
+    _TITLEPATTERNRLE                                               **** GX
+    __modsint_rrx_s                                                **** GX
+    __moduchar_rrx_s                                               **** GX
+  0 __str_1                                                        2E44 R
+  0 __str_10                                                       38AC R
+  0 __str_11                                                       38CA R
+  0 __str_12                                                       38E8 R
+  0 __str_13                                                       38FB R
+  0 __str_14                                                       390E R
+  0 __str_15                                                       3928 R
+  0 __str_16                                                       3932 R
+  0 __str_17                                                       393E R
+  0 __str_2                                                        37C5 R
+  0 __str_3                                                        37DC R
+  0 __str_4                                                        37F4 R
+  0 __str_5                                                        3813 R
+  0 __str_6                                                        3832 R
+  0 __str_7                                                        3851 R
+  0 __str_8                                                        3870 R
+  0 __str_9                                                        388E R
+  1 _activateNmi                                                   0135 GR
+  0 _addScore                                                      036F GR
+  0 _addScore_end                                                  03A8 GR
+  0 _addScore_start                                                036F GR
+  0 _animatePlayer                                                 1247 GR
+  0 _animatePlayer_end                                             12C6 GR
+  0 _animatePlayer_start                                           1247 GR
+  1 _animateSprite                                                 008C GR
+  1 _autoDoorCurrentFrame                                          0091 GR
+  1 _autoDoorCurrentGfx                                            0080 GR
+  1 _autoDoorCurrentMove                                           0093 GR
+  1 _autoDoorTimer                                                 008F GR
+  1 _autoDoors                                                     0070 GR
+  1 _bigTimer                                                      0095 GR
+  1 _bonus                                                         0081 GR
+  1 _bsprites                                                      009B GR
+    _center_string                                                 **** GX
+  0 _changeFontColor                                               0320 GR
+  0 _changeFontColor_end                                           036F GR
+  0 _changeFontColor_start                                         0320 GR
+  0 _changePlayerDirection                                         111E GR
+  0 _changePlayerDirection_end                                     1141 GR
+  0 _changePlayerDirection_start                                   111E GR
+  0 _checkPlayerGameCollisions                                     1377 GR
+  0 _checkPlayerGameCollisions_end                                 1618 GR
+  0 _checkPlayerGameCollisions_start                               1377 GR
+  0 _comptePills                                                   2FB9 GR
+  0 _comptePills_end                                               2FF0 GR
+  0 _comptePills_start                                             2FB9 GR
+  1 _cop                                                           0022 GR
+  0 _createBonus                                                   03D7 GR
+  0 _createBonus_end                                               04C1 GR
+  0 _createBonus_start                                             03D7 GR
+  0 _createDoor                                                    236D GR
+  0 _createDoor_end                                                2575 GR
+  0 _createDoor_start                                              236D GR
+  1 _currentAbsoluteLevel                                          0098 GR
+  1 _currentBonus                                                  008B GR
+  1 _currentFlicker                                                009A GR
+  1 _currentLevel                                                  0097 GR
+    _delay                                                         **** GX
+  0 _desactivateBonus                                              03C2 GR
+  0 _desactivateBonus_end                                          03D7 GR
+  0 _desactivateBonus_start                                        03C2 GR
+    _direct_sound                                                  **** GX
+  1 _directionDemandee                                             0133 GR
+    _disable_nmi                                                   **** GX
+    _duplicate_pattern                                             **** GX
+    _enable_nmi                                                    **** GX
+  0 _eraseScreen                                                   2F8B GR
+  0 _eraseScreen_end                                               2FB9 GR
+  0 _eraseScreen_start                                             2F8B GR
+  1 _extend                                                        008A GR
+    _fill_vram                                                     **** GX
+  0 _frm                                                           009F GR
+  0 _gameLoop                                                      2B75 GR
+  0 _gameLoop_end                                                  2E23 GR
+  0 _gameLoop_start                                                2B75 GR
+    _get_char                                                      **** GX
+  0 _gfxAutoDoor                                                   0068 R
+  0 _grp1                                                          008C R
+  1 _hiscore                                                       0000 GR
+  0 _horizontalSpace                                               0066 R
+  0 _initAutoDoor                                                  0764 GR
+  0 _initAutoDoor_end                                              0850 GR
+  0 _initAutoDoor_start                                            0764 GR
+  0 _initBonus                                                     03A8 GR
+  0 _initBonus_end                                                 03C2 GR
+  0 _initBonus_start                                               03A8 GR
+  0 _initCop                                                       16FE GR
+  0 _initCop_end                                                   18CF GR
+  0 _initCop_start                                                 16FE GR
+  0 _initLevel                                                     25A4 GR
+  0 _initLevel_end                                                 2B75 GR
+  0 _initLevel_start                                               25A4 GR
+  0 _initPlayer                                                    1648 GR
+  0 _initPlayer_end                                                16A7 GR
+  0 _initPlayer_start                                              1648 GR
+  0 _isCollision                                                   0630 GR
+  0 _isCollision_end                                               06AD GR
+  0 _isCollision_start                                             0630 GR
+  0 _isCopDirectionFree                                            0E05 GR
+  0 _isCopDirectionFree_end                                        111E GR
+  0 _isCopDirectionFree_start                                      0E05 GR
+  0 _isPlayerDirectionFree                                         0916 GR
+  0 _isPlayerDirectionFree_end                                     0E05 GR
+  0 _isPlayerDirectionFree_start                                   0916 GR
+    _joypad_1                                                      **** GX
+    _keypad_1                                                      **** GX
+  1 _levelParamBonusShowTime                                       0124 GR
+  1 _levelParamCop0FreezeStart                                     0127 GR
+  1 _levelParamCop0Speed                                           011C GR
+  1 _levelParamCop1FreezeStart                                     0129 GR
+  1 _levelParamCop1Speed                                           011D GR
+  1 _levelParamCop2FreezeStart                                     012B GR
+  1 _levelParamCop2Speed                                           011E GR
+  1 _levelParamCop3FreezeStart                                     012D GR
+  1 _levelParamCop3Speed                                           011F GR
+  1 _levelParamCopFreezeBonus                                      0122 GR
+  1 _levelParamNbLives                                             012F GR
+  1 _levelParamScatterModeTime                                     0120 GR
+  1 _levelParamShowAutoDoors                                       0126 GR
+  1 _levelParamShowPlayerDoors                                     0131 GR
+    _load_patternrle                                               **** GX
+  1 _loopMusic                                                     0144 GR
+  0 _main                                                          2FF0 GR
+  0 _main_end                                                      37C5 GR
+  0 _main_start                                                    2FF0 GR
+    _memcpyb                                                       **** GX
+  0 _menu                                                          2E23 GR
+  0 _menu_end                                                      2E44 GR
+  0 _menu_start                                                    2E23 GR
+  0 _modulo                                                        0000 GR
+  0 _modulo_end                                                    001E GR
+  0 _modulo_start                                                  0000 GR
+  0 _moveCop0                                                      18CF GR
+  0 _moveCop0_end                                                  1AD6 GR
+  0 _moveCop0_start                                                18CF GR
+  0 _moveCop1                                                      1AD6 GR
+  0 _moveCop1_end                                                  1CB2 GR
+  0 _moveCop1_start                                                1AD6 GR
+  0 _moveCop2                                                      1CB2 GR
+  0 _moveCop2_end                                                  1EB9 GR
+  0 _moveCop2_start                                                1CB2 GR
+  0 _moveCop3                                                      1EB9 GR
+  0 _moveCop3_end                                                  2134 GR
+  0 _moveCop3_start                                                1EB9 GR
+  0 _movePlayer                                                    1141 GR
+  0 _movePlayer_end                                                1247 GR
+  0 _movePlayer_start                                              1141 GR
+    _music_gameOver                                                **** GX
+    _music_inGame                                                  **** GX
+    _music_looseLife                                               **** GX
+    _music_nextLevel                                               **** GX
+  1 _nPlayDelay                                                    014B GR
+  1 _nSfxDelay                                                     014E GR
+  1 _nextLifeBonus                                                 0136 GR
+  0 _nmi                                                           3957 GR
+  0 _nmi_end                                                       3A1D GR
+  0 _nmi_start                                                     3957 GR
+  1 _odd                                                           011B GR
+  0 _openDoors                                                     2575 GR
+  0 _openDoors_end                                                 25A4 GR
+  0 _openDoors_start                                               2575 GR
+  1 _pPlayList                                                     0147 GR
+  1 _pPlayListForLoop                                              0149 GR
+  1 _pSfxList                                                      014C GR
+    _pause                                                         **** GX
+  0 _peekGhostGameZone                                             06AD GR
+  0 _peekGhostGameZone_end                                         0764 GR
+  0 _peekGhostGameZone_start                                       06AD GR
+  0 _playIntro                                                     2E79 GR
+  0 _playIntro_end                                                 2F8B GR
+  0 _playIntro_start                                               2E79 GR
+  1 _player                                                        0002 GR
+  1 _playerDoors                                                   0056 GR
+    _print_at                                                      **** GX
+    _put_char                                                      **** GX
+    _put_frame                                                     **** GX
+    _put_vram                                                      **** GX
+  0 _reInitPlayer                                                  16A7 GR
+  0 _reInitPlayer_end                                              16FE GR
+  0 _reInitPlayer_start                                            16A7 GR
+  0 _renderAutoDoor                                                0850 GR
+  0 _renderAutoDoor_end                                            0916 GR
+  0 _renderAutoDoor_start                                          0850 GR
+  0 _renderBonus                                                   04C1 GR
+  0 _renderBonus_end                                               04FF GR
+  0 _renderBonus_start                                             04C1 GR
+  0 _renderCop                                                     2134 GR
+  0 _renderCop_end                                                 2235 GR
+  0 _renderCop_start                                               2134 GR
+  0 _renderDoors                                                   2235 GR
+  0 _renderDoors_end                                               236D GR
+  0 _renderDoors_start                                             2235 GR
+  0 _renderPlayerDeath                                             12C6 GR
+  0 _renderPlayerDeath_end                                         1377 GR
+  0 _renderPlayerDeath_start                                       12C6 GR
+  0 _renderPlayerHiScore                                           0568 GR
+  0 _renderPlayerHiScore_end                                       05CD GR
+  0 _renderPlayerHiScore_start                                     0568 GR
+  0 _renderPlayerLevel                                             05EB GR
+  0 _renderPlayerLevel_end                                         0630 GR
+  0 _renderPlayerLevel_start                                       05EB GR
+  0 _renderPlayerNbLives                                           05CD GR
+  0 _renderPlayerNbLives_end                                       05EB GR
+  0 _renderPlayerNbLives_start                                     05CD GR
+  0 _renderPlayerScore                                             04FF GR
+  0 _renderPlayerScore_end                                         0568 GR
+  0 _renderPlayerScore_start                                       04FF GR
+  0 _renderSprite                                                  1618 GR
+  0 _renderSprite_end                                              1648 GR
+  0 _renderSprite_start                                            1618 GR
+  0 _resetSprites                                                  2E58 GR
+  0 _resetSprites_end                                              2E79 GR
+  0 _resetSprites_start                                            2E58 GR
+    _rle2vram                                                      **** GX
+    _rnd                                                           **** GX
+    _rnd_byte                                                      **** GX
+  1 _scatterModeTimer                                              008D GR
+    _screen_mode_2_bitmap                                          **** GX
+    _screen_off                                                    **** GX
+    _screen_on                                                     **** GX
+  1 _sfxEnCours                                                    0145 GR
+    _sfx_bonus                                                     **** GX
+    _sfx_piece                                                     **** GX
+    _sfx_porte                                                     **** GX
+  0 _snd_table                                                     00B7 GR
+  0 _sound_nmi                                                     00B8 GR
+  0 _sound_nmi_end                                                 022C GR
+  0 _sound_nmi_start                                               00B8 GR
+    _sprites                                                       **** GX
+  0 _startmusic                                                    0271 GR
+  0 _startmusic_end                                                02B1 GR
+  0 _startmusic_start                                              0271 GR
+  0 _startsfx                                                      02EB GR
+  0 _startsfxPrio                                                  02B1 GR
+  0 _startsfxPrio_end                                              02EB GR
+  0 _startsfxPrio_start                                            02B1 GR
+  0 _startsfx_end                                                  0320 GR
+  0 _startsfx_start                                                02EB GR
+  0 _stopmusic                                                     022C GR
+  0 _stopmusic_end                                                 0271 GR
+  0 _stopmusic_start                                               022C GR
+    _str                                                           **** GX
+  1 _timerDirectionDemandee                                        0134 GR
+    _updatesprites                                                 **** GX
+  1 _vola                                                          0146 GR
+  1 _workflow                                                      0099 GR
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods + Flat24  (Zilog Z80 / Hitachi HD64180), page 2.
+
+Area Table
+
+   0 _CODE                                      size 3A1D   flags 0
+   1 _DATA                                      size  14F   flags 0
+   2 _OVERLAY                                   size    0   flags 0
+   3 _HOME                                      size    0   flags 0
+   4 _GSINIT                                    size   84   flags 0
+   5 _GSFINAL                                   size    0   flags 0
+   6 _CABS                                      size    0   flags 0
